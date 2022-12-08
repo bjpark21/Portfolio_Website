@@ -40,7 +40,6 @@ export default function Header() {
               깃허브 사이트
             </a>
           </nav>
-          {/* 다크모드 토글 버튼 작업해야함 */}
           <DarkModeToggleButton />
         </div>
       </header>

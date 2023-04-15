@@ -68,7 +68,7 @@ export async function getServerSideProps() {
 
   return {
     props: { projects }, // will be passed to the page component as props
-    // getStaticProps() 메소드를 사용한다면 revalidate 로 데이터 변경시 갱신가능!
-    // revalidate: 1 // 데이터 변경이 있으면 갱신 1초 마다
+    // getStaticProps() 메소드를 사용한다면 revalidate 로 데이터 변경시 갱신가능
+    // revalidate: 1 // 데이터 변경이 있으면 갱신주기를 1초로
   };
 }

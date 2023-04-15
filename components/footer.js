@@ -13,7 +13,7 @@ export default function Footer() {
             </Link>
 
             <p className="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">
-              © 2022 Next.js & react & Tailwind CSS
+              © 2023 Next.js & react & Tailwind CSS
             </p>
             <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
               <a
